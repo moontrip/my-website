@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # Set this to your custom directory to publish (e.g., './dist')
           path: '.'
           # path: './v1'
       - name: Deploy to GitHub Pages
